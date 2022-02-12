@@ -17,15 +17,15 @@ export default function palette(mode) {
   return {
     mode,
     primary: {
-      ligth: '#ff5a36',
-      main: '#ff0000',
-      dark: '#c20000',
-      contrastText: '#000000',
+      ligth: '#6087fc',
+      main: '#125bc8',
+      dark: '#003396',
+      contrastText: '#ffffff',
     },
     secondary: {
-      ligth: '#72ffff',
-      main: '#00FFFF',
-      dark: '#00cbcc',
+      ligth: '#ffae48',
+      main: '#c87f12',
+      dark: '#925200',
       contrastText: '#000000',
     },
     text: {
