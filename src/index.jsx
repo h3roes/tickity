@@ -1,12 +1,19 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import ThemeCofing from 'theme';
+import ApplicationProvider from 'Contexts/Application';
 
-import './index.css';
-import App from './App';
+import Router from './Router';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <App />,
+  <BrowserRouter>
+    <ApplicationProvider>
+      <ThemeCofing>
+        <Router />
+      </ThemeCofing>
+    </ApplicationProvider>
+  </BrowserRouter>,
   document.getElementById('root'),
 );
 
